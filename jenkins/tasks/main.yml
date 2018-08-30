@@ -1,0 +1,5 @@
+---
+- name: Install Java 1.7
+  docker_container:
+    name: mydata
+    image: jenkins/jenkins:lts

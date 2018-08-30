@@ -1,0 +1,12 @@
+
+[jenkins-master]
+ubuntu1604
+
+[jenkins-master:vars]
+docker_image=jenkins/jenkins:lts
+
+[slaves]
+ubuntu1604
+
+[slaves:vars]
+docker_image=jenkins/jnlp-slave:lts
